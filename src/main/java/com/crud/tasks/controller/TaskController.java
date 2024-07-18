@@ -15,6 +15,7 @@ import java.util.List;
 
 import static javax.swing.text.html.HTML.Tag.OL;
 
+@CrossOrigin("*")
 @RestController
 @RequestMapping("/v1/tasks")
 public class TaskController {
