@@ -13,4 +13,9 @@ public class TrelloBoard {
     private String id;
     private String name;
     private List<TrelloList> lists;
+
+    public TrelloBoard(String id, String name) {
+        this.id = id;
+        this.name = name;
+    }
 }
