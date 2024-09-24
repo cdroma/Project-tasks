@@ -29,7 +29,7 @@ public class MailCreatorService {
 
         Context context = new Context();
         context.setVariable("message", message);
-        context.setVariable("tasks_url", "http://localhost:8888/crud");
+        context.setVariable("tasks_url", "http://localhost:8080/");
         context.setVariable("button", "Visit website");
         context.setVariable("admin_name", adminConfig.getAdminName());
         context.setVariable("is_friend", false);
